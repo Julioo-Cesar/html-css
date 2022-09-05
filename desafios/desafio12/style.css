@@ -10,7 +10,7 @@ html, body {
     min-height: 100vh;
 }
 
-.nav {
+header {
     text-align: center;
     display: block;
     background-color: black;
@@ -19,26 +19,26 @@ html, body {
     color: white;
 }
 
-.nav h1 {
+header h1 {
     font-family: 'Passion One', cursive;
     font-size: 160px;
     font-weight: bold;
     padding-top: 40px;
 }
 
-.nav > p {
+header > p {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav a {
+header a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.nav a:hover {
+header a:hover {
     text-decoration: underline;
 }
 
@@ -55,12 +55,14 @@ html, body {
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 .fundo p {
     background-color: rgb(51, 51, 51);
     padding: 20px 0px;
     max-width: 800px;
+    text-shadow: 1px 1px 0px black;
 }
 
 #img1 {
@@ -71,7 +73,7 @@ html, body {
     background-image: url('./imagens/background002.jpg');
 }
 
-.footer {
+footer {
     background-color: black;
     padding: 10px;
     color: white;
@@ -79,13 +81,13 @@ html, body {
     text-align: center;
 }
 
-.footer a {
+footer a {
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
-.footer a:hover {
+footer a:hover {
     text-decoration: underline;
 }
