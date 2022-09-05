@@ -11,11 +11,13 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -31,8 +33,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 160px;
-    font-weight: bold;
+    font-size: 10vw;
 }
 
 header > p {
@@ -57,19 +58,19 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 .text {
     background-color: white;
     color: black;
-    font-family: var(--fonte3);
     font-size: 7vh;
 }
 
 .fundo {
     background-color: rgb(80, 79, 79);
     color: white;
-    font-family: var(--fonte3);
     font-size: 7vh;
     background-size: cover;
     background-attachment: fixed;
@@ -77,9 +78,9 @@ section {
 }
 
 .fundo > p {
-    width: 400px;
-    background-color: rgba(51, 51, 51, 0.26);
-    padding: 20px 0px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(51, 51, 51, 0.568);
     text-shadow: 1px 1px 0px black;
 }
 
